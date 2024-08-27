@@ -4,4 +4,4 @@ const collection = 'LIVRARIA';
 
 use(database);
 
-db [collection].find();
+db[collection].find({"categoria":"Ficção Científica"});
