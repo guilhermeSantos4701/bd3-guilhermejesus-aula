@@ -4,4 +4,6 @@ const collection = 'LIVRARIA';
 
 use(database);
 
-db[collection].find({"autor":"Isaac Asimov"});
+db[collection].deleteOne(
+    {codigo:'9'}
+);

@@ -4,4 +4,6 @@ const collection = 'LIVRARIA';
 
 use(database);
 
-db[collection].find({"autor":"Isaac Asimov"});
+db[collection].deleteMany(
+    {autor:'Isaac Asimov'}
+);
